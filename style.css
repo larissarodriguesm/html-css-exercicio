@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+#img-legend {
+    text-align: center;
+}
+
+div > img {
+    border-radius: 30px;
+}
+
+#img-legend > figcaption {
+        font-size: 15px;
+        font-weight: 300;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: auto;
+        color: #606060;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
