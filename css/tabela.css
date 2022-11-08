@@ -1,0 +1,15 @@
+table, th, td {
+    border: 2px solid black;
+    border-radius: 10px;
+   }
+
+table th {
+    background-color: black;
+    color: white
+}
+
+#customers th {
+    background-color: #04AA6D;
+    color: white;
+}
+
