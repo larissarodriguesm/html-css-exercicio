@@ -1,15 +1,24 @@
 table, th, td {
-    border: 2px solid black;
-    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
    }
 
-table th {
-    background-color: black;
-    color: white
+td, th {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 #customers th {
     background-color: #04AA6D;
     color: white;
+}
+
+tr:hover {
+    background-color: brown;
 }
 
